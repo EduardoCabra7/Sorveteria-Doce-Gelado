@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="produtos.css" />
+    <link rel="stylesheet" type="text/css" href="contato.css" />
+    <title>Sorveteria Doce Gelado</title>
+  </head>
+
+  <body>
+    <nav>
+      <img
+        src="img/Pink Blue Retro Funky Ice Cream Parlor Logo (1).png"
+        width="74"
+        height="80"
+        alt="Logo Pousada Porto das Dunas"
+        class="logo"
+      />
+
+      <div class="menu-btn">
+        <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+      </div>
+
+      <ul>
+        <li>
+          <a href="index.html" class="active"> Home </a>
+        </li>
+        <li>
+          <a href="produtos.html"> Produtos</a>
+        </li>
+        <li>
+          <a href="contato.html"> Contato</a>
+        </li>
+      </ul>
+    </nav>
+    <script src="main.js"></script>
+  </body>
+
+  <section id="contato">
+    <div class="box-formulario">
+      <div class="formulario">
+        <div class="title-form">
+          <h1>Fale Conosco</h1>
+        </div>
+
+        <form action="#" method="post">
+          <span>
+            <input
+              type="text"
+              class="input-balao-up"
+              id="nome"
+              name="nome"
+              placeholder="Nome"
+              autocomplete="off"
+              required=""
+            />
+            <label for="nome">
+              <i class="icon icon-user-outline"></i>
+            </label>
+          </span>
+
+          <span>
+            <input
+              type="text"
+              class="input-balao-up"
+              id="email"
+              name="email"
+              placeholder="E-mail"
+              autocomplete="off"
+              required=""
+            />
+            <label for="email">
+              <i class="icon icon-mail-3"></i>
+            </label>
+          </span>
+
+          <span>
+            <input
+              type="text"
+              class="input-balao-up"
+              id="assunto"
+              name="assunto"
+              placeholder="Assunto"
+              autocomplete="off"
+              required=""
+            />
+            <label for="assunto">
+              <i class="icon icon-info"></i>
+            </label>
+          </span>
+
+          <span>
+            <textarea
+              type="text"
+              class="textarea-balao-up"
+              id="mensagem"
+              name="mensagem"
+              rows="3"
+              placeholder="Mensagem"
+              autocomplete="off"
+              required=""
+            ></textarea>
+            <label for="mensagem">
+              <i class="icon icon-bubble-4"></i>
+            </label>
+          </span>
+
+          <div class="box-btn">
+            <button type="submit" class="btn-envia zoom-shadow">
+              <i class="icon icon-forward-1"> Enviar</i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!--Box Formulario-->
+    <!--Fim Container Contatot-->
+  </section>
+  <!--Fim Contato-->
+
+  <!--Rodapé-->
+  <body>
+    <footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2>Sobre nós</h2>
+          <div class="content">
+            <p>
+              A sport Max é uma loja virtual de produtos esportivos, que ajuda a
+              se conectar com os clientes. Ela apresenta diversas informações
+              que pode compartilhar com o mundo. Mas o objetivo principal é
+              atrair clientes.
+            </p>
+
+            <div class="social">
+              <a href="#">
+                <span class="fab fa-facebook-f"></span>
+              </a>
+              <a href="#">
+                <span class="fab fa-twitter"></span>
+              </a>
+              <a href="#">
+                <span class="fab fa-instagram"></span>
+              </a>
+              <a href="#">
+                <span class="fab fa-youtube"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--left box-->
+        <div class="center box">
+          <h2>Endereço</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker"></span>
+              <span class="text">Av.Brasil, Nova Capital</span>
+            </div>
+
+            <div class="phone">
+              <span class="fas fas fa-phone-alt"></span>
+              <span class="text">+55 21 982828968</span>
+            </div>
+
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">eduardobianck07@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="right box">
+          <h2>Contato</h2>
+          <div class="content">
+            <form action="#">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input type="email" required />
+              </div>
+              <div class="msg">
+                <div class="text">Mensagem *</div>
+                <textarea rows="2" cols="25" required></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!--main-content-->
+      <div class="bottom">
+        <div class="center">
+          <span class="credit"
+            >Criado por
+            <a
+              href="https://sites.google.com/view/eduardo-bianck/página-inicial?authuser=1"
+              >Eduardo Bianck</a
+            >
+          </span>
+          <span class="far fa-copyright"
+            >2023 Todos os diteitos reservados</span
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!--Fim Rodapé-->
+  </body>
+</html>

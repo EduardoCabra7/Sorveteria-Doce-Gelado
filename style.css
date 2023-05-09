@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: #f97594;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+}
+nav .logo {
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover {
+  background: #3ca0e9;
+}
+
+nav .menu-btn i {
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+@media (max-width: 920px) {
+  nav .menu-btn i {
+    display: block;
+  }
+  nav ul {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background-color: #003840;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  nav ul.open {
+    left: 0;
+  }
+  nav ul li {
+    width: 100%;
+    margin: 50px 0;
+  }
+  nav ul li a {
+    font-size: 23px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover {
+    background: none;
+    color: #f88f06;
+  }
+}
+
+section.container h1 {
+  color: #3ca0e9;
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+section.container div#caixa1 {
+  margin-top: -10px;
+  margin-left: 20px;
+  width: 550px;
+  height: 700px;
+  /*background-color:pink;*/
+  float: left;
+}
+
+section.container div#caixa2 {
+  margin-top: auto;
+  margin-right: 20px;
+  width: 550px;
+  height: 700px;
+  /*background-color:pink;*/
+  float: right;
+}
+
+section.container div#caixa1 p {
+  color: #303030;
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 30px;
+}
+
+section.container div#caixa2 p {
+  color: #303030;
+  font-size: 22px;
+  line-height: 34px;
+  margin-top: 30px;
+}
+
+section.container div#sorvetes {
+  margin-top: 850px;
+  margin-left: 63px;
+  width: 1200px;
+  height: 500px;
+  /*background-color:pink;*/
+  clear: both;
+}
+
+section.container div#sorvetes h2 {
+  color: #3ca0e9;
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+section.container div#sorvetes div#duplo {
+  margin-right: 20px;
+  width: 380px;
+  height: 400px;
+  float: left;
+  background-color: #f97594;
+}
+section.container div#sorvetes div#triplo {
+  margin-right: 10px;
+  width: 380px;
+  height: 400px;
+  float: left;
+  background-color: #f97594;
+}
+
+section.container div#sorvetes div#triplo {
+  margin-left: 10px;
+}
+
+section.container div#sorvetes div#quadruplo {
+  margin-right: -10px;
+  width: 380px;
+  height: 400px;
+  float: right;
+  background-color: #f97594;
+}
+
+section.container div#sorvetes div#duplo h3,
+section.container div#sorvetes div#triplo h3,
+section.container div#sorvetes div#quadruplo h3 {
+  color: #3ca0e9;
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+/*rodapé*/
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 10px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+/*Fim Rodapé*/
